@@ -37,6 +37,7 @@ func main() {
 	log.Info("started!")
 	go updateCmcTicker()
 
+	gin.SetMode(gin.ReleaseMode)
 	r := gin.Default()
 
 	r.GET("/ticker", func(c *gin.Context) {
