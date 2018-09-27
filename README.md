@@ -1,1 +1,2 @@
 # cmccacher
+Coinmarketcap Ticker Cacher.
