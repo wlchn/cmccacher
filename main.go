@@ -1,11 +1,12 @@
 package main
 
 import (
+	"net/http"
+	"time"
+
 	"github.com/gin-gonic/gin"
 	"github.com/json-iterator/go"
 	log "github.com/sirupsen/logrus"
-	"net/http"
-	"time"
 )
 
 var json = jsoniter.ConfigCompatibleWithStandardLibrary
